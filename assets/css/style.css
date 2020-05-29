@@ -1,0 +1,108 @@
+body { 
+    font-family: 'Open Sans', sans-serif; 
+    overflow-x: hidden;
+}
+
+header, .header {
+    background-color: transparent;
+    border-top: 3px solid #ff5938;
+}
+
+
+@media only screen and (max-width: 920px)
+{
+    .header{
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
+.header .navbar-dark.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 14px;
+}
+
+.header .navbar-dark.navbar {
+    padding: 18px 0;
+}
+
+.header, .navbar-logo{
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+
+.header.scrolled {
+    background: #1e2225; /* NON-IE */
+    text-align: center;
+}
+
+.header.scrolled .navbar-logo{
+    max-height: 60px;
+}
+
+.pb-13, .py-13 {
+    padding-bottom: 8rem!important;
+}
+
+.pt-13, .py-13 {
+    padding-top: 8rem!important;
+}
+
+@media (min-width: 992px){
+    .pt-lg-16, .py-lg-16 {
+        padding-top: 20rem!important;
+    }
+    .pb-lg-14, .py-lg-14 {
+        padding-bottom: 18rem!important;
+    }
+}
+
+.navbar-logo{
+    max-height: 90px;
+    width: auto;
+}
+
+.login-btn{
+    padding: .375rem .75rem;
+}
+
+.banner-text{
+    text-shadow: 2px 2px 4px #000;
+    font-weight: 800;
+}
+
+.gray-bg{
+    background-color: #f6f6f6;
+}
+
+
+figure{
+    border-radius: .25rem!important;
+    background-color: #343a40;
+    transition: all 0.4s ease;
+    margin-bottom: 2rem;
+}
+
+.figure-caption{
+    color: #fff;
+    margin-bottom: 8px;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+figure:hover{
+    opacity: 0.8;
+}
+
+.footer-img{
+    max-width: 150px;
+}
+
+.bg-black{
+    background-color: #1e2225;
+}
