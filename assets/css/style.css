@@ -53,12 +53,27 @@ header, .header {
     padding-top: 8rem!important;
 }
 
+.pb-7, .py-7 {
+    padding-bottom: 9rem!important;
+}
+
+.pt-7, .py-7 {
+    padding-top: 8rem!important;
+}
+
 @media (min-width: 992px){
     .pt-lg-16, .py-lg-16 {
         padding-top: 20rem!important;
     }
     .pb-lg-14, .py-lg-14 {
         padding-bottom: 18rem!important;
+    }
+
+    .pt-lg-8, .py-lg-8 {
+        padding-top: 10rem !important;
+    }
+    .pb-lg-7, .py-lg-7 {
+        padding-bottom: 9rem !important;
     }
 }
 
