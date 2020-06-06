@@ -125,3 +125,21 @@ figure:hover{
 .mb-m5{
     margin-bottom: -53px;
 }
+
+.login-page{
+    background:url(../images/bg.jpg);
+}
+
+.login-form{
+    margin-top: 8rem;
+    opacity: 0.8;
+    transition: 0.8s all ease;
+}
+
+.login-form:hover, .login-focus:hover{
+    opacity: 1;
+}
+
+.login-form label, .login-form input, .login-form button{
+    opacity: 1 !important;
+}
